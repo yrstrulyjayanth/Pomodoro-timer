@@ -27,7 +27,7 @@ pomodoro_timer_app/
 │   └── js/
 │       └── app.js
 ├── templates/
-│   └── index.html
+├── index.html
 ├── app.py
 └── README.md
 
