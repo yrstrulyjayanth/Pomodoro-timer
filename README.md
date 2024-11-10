@@ -31,4 +31,3 @@ pomodoro_timer_app/
 ├── app.py
 └── README.md
 
-
