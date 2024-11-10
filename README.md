@@ -21,13 +21,13 @@ A simple and effective Pomodoro Timer application built with Flask and JavaScrip
 ## Project Structure
 
 pomodoro_timer_app/
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── app.js
-├── templates/
-├── index.html
-├── app.py
-└── README.md
+static/
+  css/
+    style.css
+  js/
+    app.js
+templates/
+index.html
+app.py
+README.md
 
