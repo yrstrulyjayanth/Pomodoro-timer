@@ -18,5 +18,17 @@ A simple and effective Pomodoro Timer application built with Flask and JavaScrip
 - Frontend: HTML, CSS, JavaScript
 - Server: Flask Development Server
 
+## Project Structure
+
+pomodoro_timer_app/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+├── templates/
+│   └── index.html
+├── app.py
+└── README.md
 
 
