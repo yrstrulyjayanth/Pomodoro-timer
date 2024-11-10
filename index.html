@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer-display">25:00</div>
+        <div id="session-state" class="session-state">{{ session_state|capitalize }} Session</div>
+        
+        <!-- Session Buttons -->
+        <div class="button-container">
+            <button id="pomodoro-btn" class="session-btn">Pomodoro</button>
+            <button id="short-break-btn" class="session-btn">Short Break</button>
+            <button id="long-break-btn" class="session-btn">Long Break</button>
+        </div>
+        
+        <!-- Control Buttons -->
+        <div class="control-buttons">
+            <button id="start-btn" class="control-btn">Start</button>
+            <button id="reset-btn" class="control-btn">Reset</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
